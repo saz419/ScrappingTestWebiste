@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Types Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #007bff;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        .json {
+            background-color: #f0f0f0;
+            padding: 10px;
+            margin-bottom: 20px;
+            white-space: pre-wrap;
+        }
+
+        .image-container {
+            text-align: center;
+        }
+
+        .image {
+            max-width: 100%;
+        }
+
+        .text-html {
+            background-color: #f0f0f0;
+            padding: 10px;
+            white-space: pre-wrap;
+        }
+
+        .css {
+            background-color: #f0f0f0;
+            padding: 10px;
+            white-space: pre-wrap;
+        }
+
+        .text-plain {
+            background-color: #f0f0f0;
+            padding: 10px;
+            white-space: pre-wrap;
+        }
+
+        .octet-stream {
+            background-color: #f0f0f0;
+            padding: 10px;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to the Content Types Website</h1>
+
+    <h2>JSON Content</h2>
+    <div class="json">
+        {
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "age": 30
+        }
+    </div>
+
+    <h2>Image Content</h2>
+    <div class="image-container">
+        <img class="image" src="/assets/photo1.jpg" alt="Example Image">
+        <img class="image" src="/assets/photo2.jpg" alt="Example Image">
+        <img class="image" src="https://picsum.photos/500/500" alt="Example Image">
+    </div>
+
+    <h2>Text/HTML Content</h2>
+    <div class="text-html">
+        &lt;h1&gt;Hello, this is an HTML content&lt;/h1&gt;
+        &lt;p&gt;It can contain various HTML tags.&lt;/p&gt;
+    </div>
+
+    <h2>CSS Content</h2>
+    <div class="css">
+        body {
+        background-color: #f0f0f0;
+        color: #333;
+        }
+
+        h2 {
+        color: #007bff;
+        }
+    </div>
+
+    <h2>Text/Plain Content</h2>
+    <div class="text-plain">
+        This is a plain text content. It doesn't have any formatting.
+    </div>
+
+    <h2>Octet-Stream Content</h2>
+    <div class="octet-stream">
+        50 6C 61 69 6E 20 48 54 4D 4C 20 61 6E 64 20 43 53 53
+    </div>
+</body>
+
+</html>
